@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/media_center_box"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/media_fast_rewind_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sdk_vod_c_play_ic_fast_rewind_10"
+        android:visibility="invisible"/>
+
+    <ImageView
+        android:id="@+id/media_play"
+        android:layout_width="@dimen/sdk_vod_c_play_sm_60"
+        android:layout_height="@dimen/sdk_vod_c_play_sm_60"
+        android:layout_marginStart="@dimen/sdk_vod_c_play_sm_100"
+        android:layout_marginEnd="@dimen/sdk_vod_c_play_sm_100"
+        android:src="@drawable/sdk_vod_c_play_ic_pause"/>
+
+    <ImageView
+        android:id="@+id/media_fast_forward_10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sdk_vod_c_play_ic_fast_forward_10"
+        android:visibility="invisible"/>
+</LinearLayout>

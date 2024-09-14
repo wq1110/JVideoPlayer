@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+
+        <import type="android.view.View" />
+
+        <variable
+            name="viewModel"
+            type="com.jw.media.jvideoplayer.viewmodel.SimplePlayViewModel" />
+
+    </data>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF121212"
+        android:fitsSystemWindows="true">
+
+        <FrameLayout
+            android:id="@+id/layout_player"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone">
+            <com.jw.media.jvideoplayer.player.base.VideoPlayer
+                android:id="@+id/media_video_player"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </FrameLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_extra"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:onClick="clickPlayMovie"
+                android:text="clickPlayMovie"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                tools:ignore="UsingOnClickInXml" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:onClick="clickPlaySeries"
+                android:text="clickPlaySeries"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                tools:ignore="UsingOnClickInXml" />
+            <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:onClick="clickPlayTrailer"
+                android:text="clickPlayTrailer"
+                android:textSize="20sp"
+                android:textAllCaps="false"
+                tools:ignore="UsingOnClickInXml" />
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

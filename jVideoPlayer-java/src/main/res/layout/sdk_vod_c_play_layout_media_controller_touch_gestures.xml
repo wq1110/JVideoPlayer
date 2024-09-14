@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/media_touch_gestures_box"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/sdk_vod_c_play_bg_controller_touch_gestures"
+    android:gravity="center_vertical">
+    <!-- 调节声音-->
+    <LinearLayout
+        android:id="@+id/media_volume"
+        android:layout_width="@dimen/sdk_vod_c_play_sm_80"
+        android:layout_height="@dimen/sdk_vod_c_play_sm_80"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/media_volume_iv"
+            android:layout_width="@dimen/sdk_vod_c_play_sm_54"
+            android:layout_height="@dimen/sdk_vod_c_play_sm_54"
+            android:layout_gravity="center"
+            android:src="@drawable/sdk_vod_c_play_ic_volume"/>
+
+        <TextView
+            android:id="@+id/media_volume_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="50%"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sdk_vod_c_play_font_size_28px"/>
+    </LinearLayout>
+    <!-- 调节亮度-->
+    <LinearLayout
+        android:id="@+id/media_brightness"
+        android:layout_width="@dimen/sdk_vod_c_play_sm_80"
+        android:layout_height="@dimen/sdk_vod_c_play_sm_80"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/sdk_vod_c_play_ic_brightness"/>
+
+        <TextView
+            android:id="@+id/media_brightness_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/sdk_vod_c_play_sm_8"
+            android:text="50%"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sdk_vod_c_play_font_size_28px"/>
+    </LinearLayout>
+    <!-- 快进快退-->
+    <LinearLayout
+        android:id="@+id/media_fastForward_box"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/sdk_vod_c_play_sm_8"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/media_fastForward_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/sdk_vod_c_play_sm_8"
+            android:text="50%"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/sdk_vod_c_play_font_size_28px"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="@dimen/sdk_vod_c_play_sm_8">
+
+            <TextView
+                android:id="@+id/media_fastForward_target_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50%"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/sdk_vod_c_play_font_size_28px"/>
+
+            <TextView
+                android:id="@+id/media_fastForward_all_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="50%"
+                android:textColor="#FFE0E0E0"
+                android:textSize="@dimen/sdk_vod_c_play_font_size_28px"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

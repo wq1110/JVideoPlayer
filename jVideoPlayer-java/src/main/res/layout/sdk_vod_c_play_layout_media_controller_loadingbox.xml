@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:id="@+id/media_loading_box"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:visibility="gone">
+
+    <ProgressBar
+        android:id="@+id/media_loading_bar"
+        style="@style/sdk_vod_c_play_style_progressBar_custom_drawable"
+        android:layout_width="@dimen/sdk_vod_c_play_sm_50"
+        android:layout_height="@dimen/sdk_vod_c_play_sm_50"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateTintMode="src_atop" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/sdk_vod_c_play_sm_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+            <TextView
+                android:id="@+id/media_loading_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                tool:text="Preparing... (80%)"/>
+            <!--Gap-->
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="  " />
+
+            <TextView
+                android:id="@+id/media_loading_speed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/white"
+                tool:text="Streaming···2MB/S"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/media_loading_extra_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            tool:text="Subtitles loaded"/>
+    </LinearLayout>
+</LinearLayout>

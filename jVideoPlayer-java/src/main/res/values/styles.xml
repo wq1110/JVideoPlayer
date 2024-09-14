@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="sdk_vod_c_play_style_progressBar_custom_drawable" parent="@android:style/Widget.ProgressBar.Small">
+        <item name="android:indeterminateDrawable">@drawable/sdk_vod_c_play_animated_progress_loading_circle</item>
+        <item name="android:minWidth">@dimen/sdk_vod_c_play_sm_25</item>
+        <item name="android:minHeight">@dimen/sdk_vod_c_play_sm_25</item>
+        <item name="android:maxWidth">@dimen/sdk_vod_c_play_sm_60</item>
+        <item name="android:maxHeight">@dimen/sdk_vod_c_play_sm_60</item>
+    </style>
+
+    <style name="sdk_vod_c_play_style_SeekBarAppTheme">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:focusable">true</item>
+        <item name="android:progressDrawable">@drawable/sdk_vod_c_play_bg_progress_drawable</item>
+        <item name="android:indeterminateDrawable">@drawable/sdk_vod_c_play_bg_progress_drawable</item>
+        <item name="android:thumb">@drawable/sdk_vod_c_play_bg_selector_seekbar_thumb</item>
+        <item name="android:minHeight">@dimen/sdk_vod_c_play_sm_3</item>
+        <item name="android:maxHeight">@dimen/sdk_vod_c_play_sm_3</item>
+        <item name="android:paddingLeft">@dimen/sdk_vod_c_play_sm_5</item>
+        <item name="android:paddingRight">@dimen/sdk_vod_c_play_sm_5</item>
+    </style>
+</resources>

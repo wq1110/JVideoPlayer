@@ -1,0 +1,79 @@
+[versions]
+#config version
+applicationId = "com.jw.media.jvideoplayer"
+compileSdk = "34"
+minSdk = "21"
+targetSdk = "34"
+versionCode = "1"
+versionName = "1.0"
+agp = "8.5.2"
+kotlin = "2.0.0"
+coreKtx = "1.13.1"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+lifecycleRuntimeKtx = "2.8.5"
+activityCompose = "1.9.2"
+composeBom = "2024.09.01"
+appcompat = "1.7.0"
+material = "1.12.0"
+toastcompat = "1.1.0"
+rxandroid = "2.1.1"
+rxjava = "2.2.19"
+okhttp3 = "4.12.0"
+autosize = "1.2.1"
+autodispose = "1.4.0"
+glide ="4.15.1"
+ijkplayer = "0.8.8"
+immersionbar = "3.2.2"
+commonsIo = "2.13.0"
+multidex = "2.0.1"
+gson = "2.10.1"
+commons-lang3 = "3.9"
+viewbinding = "8.6.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+toastcompat = { group = "me.drakeet.support", name = "toastcompat", version.ref = "toastcompat" }
+rxandroid = { group = "io.reactivex.rxjava2", name = "rxandroid", version.ref = "rxandroid" }
+rxjava = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava" }
+okhttp3 = { group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp3" }
+autosize = { group = "me.jessyan", name = "autosize", version.ref = "autosize" }
+autodispose = { group = "com.uber.autodispose", name = "autodispose-android-archcomponents", version.ref = "autodispose" }
+glide = { group = "com.github.bumptech.glide", name = "glide", version.ref = "glide" }
+#ijkplayer
+ijkplayer-java = { group = "tv.danmaku.ijk.media", name = "ijkplayer-java", version.ref = "ijkplayer"}
+ijkplayer-armv7a = { group = "tv.danmaku.ijk.media", name = "ijkplayer-armv7a", version.ref = "ijkplayer"}
+ijkplayer-armv5 = { group = "tv.danmaku.ijk.media", name = "ijkplayer-armv5", version.ref = "ijkplayer"}
+ijkplayer-arm64 = { group = "tv.danmaku.ijk.media", name = "ijkplayer-arm64", version.ref = "ijkplayer"}
+#ijkplayer-x86 = { group = "tv.danmaku.ijk.media", name = "ijkplayer-x86", version.ref = "ijkplayer"}
+#ijkplayer-x86_64 = { group = "tv.danmaku.ijk.media", name = "ijkplayer-x86_64", version.ref = "ijkplayer"}
+ijkplayer-exo = { group = "tv.danmaku.ijk.media", name = "ijkplayer-exo", version.ref = "ijkplayer"}
+immersionbar = { group = "com.geyifeng.immersionbar", name = "immersionbar", version.ref = "immersionbar"}
+commonsIo = { group = "commons-io", name = "commons-io", version.ref = "commonsIo"}
+multidex = { group = "androidx.multidex", name = "multidex", version.ref = "multidex"}
+gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson"}
+commons-lang3 = { group = "org.apache.commons", name = "commons-lang3", version.ref = "commons-lang3"}
+viewbinding = { group = "androidx.databinding", name = "viewbinding", version.ref = "viewbinding" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrains-kotlin-plugin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+

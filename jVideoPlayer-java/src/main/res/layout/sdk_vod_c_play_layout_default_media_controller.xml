@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--ass view-->
+    <com.jw.media.jvideoplayer.lib.ass.AssView
+        android:id="@+id/media_ass_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <!--loading box-->
+    <include
+        layout="@layout/sdk_vod_c_play_layout_media_controller_loadingbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+    <RelativeLayout
+        android:id="@+id/media_controller_box"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--top box-->
+        <include
+            layout="@layout/sdk_vod_c_play_layout_media_controller_topbox"/>
+
+        <!--right box-->
+        <LinearLayout
+            android:id="@+id/media_right_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="@dimen/sdk_vod_c_play_sm_10"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/media_orientation_lock"
+                android:layout_width="@dimen/sdk_vod_c_play_sm_24"
+                android:layout_height="@dimen/sdk_vod_c_play_sm_24"
+                android:src="@drawable/sdk_vod_c_play_ic_lock"/>
+
+            <ImageView
+                android:id="@+id/media_zoom"
+                android:layout_width="@dimen/sdk_vod_c_play_sm_24"
+                android:layout_height="@dimen/sdk_vod_c_play_sm_24"
+                android:layout_marginTop="@dimen/sdk_vod_c_play_sm_40"
+                android:background="@drawable/sdk_vod_c_play_ic_zoom_out"/>
+        </LinearLayout>
+
+        <!--center box-->
+        <include
+            layout="@layout/sdk_vod_c_play_layout_media_controller_centerbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <!--bottom box-->
+        <LinearLayout
+            android:id="@+id/media_bottom_controller_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="gone">
+            <include
+                layout="@layout/sdk_vod_c_play_layout_media_controller_datatips"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/sdk_vod_c_play_sm_10" />
+            <include
+                layout="@layout/sdk_vod_c_play_layout_media_controller_bottombox" />
+        </LinearLayout>
+
+        <!--subtitles box-->
+        <TextView
+            android:id="@+id/media_subtitle_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/sdk_vod_c_play_sm_15"
+            android:textColor="#ff0"
+            android:textSize="@dimen/sdk_vod_c_play_font_size_32px"/>
+
+        <!-- 中间触摸提示 box-->
+        <include
+            layout="@layout/sdk_vod_c_play_layout_media_controller_touch_gestures"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+</FrameLayout>

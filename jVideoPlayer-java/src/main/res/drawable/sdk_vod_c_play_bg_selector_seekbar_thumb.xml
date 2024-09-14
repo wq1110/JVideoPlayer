@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="@color/sdk_vod_c_play_primary_color"/>
+    <corners android:radius="@dimen/sdk_vod_c_play_sm_8"/>
+    <size
+        android:width="@dimen/sdk_vod_c_play_sm_15"
+        android:height="@dimen/sdk_vod_c_play_sm_15"/>
+</shape>

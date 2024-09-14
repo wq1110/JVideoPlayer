@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="sdk_vod_c_play_str_free_trial_tips">Free trial</string>
+    <string name="sdk_vod_c_play_str_next_episode">Next episode</string>
+    <string name="sdk_vod_c_play_str_resources">Resources</string>
+    <string name="sdk_vod_c_play_str_subtitles">Subtitles</string>
+    <string name="sdk_vod_c_play_str_video">Episodes</string>
+    <string name="sdk_vod_c_play_str_screen_locked">Screen rotation has been locked!</string>
+    <string name="sdk_vod_c_play_str_play_resources">Sources</string>
+    <string name="sdk_vod_c_play_str_original_ratio">Original ratio</string>
+    <string name="sdk_vod_c_play_str_full_screen">Full screen</string>
+
+    <string name="sdk_vod_c_play_str_play_source_site_desc">Site</string>
+    <string name="sdk_vod_c_play_str_audio">Audio</string>
+    <string name="sdk_vod_c_play_str_resolution">Resolution</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_language">Language</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_font_size">Font Size</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_font_color">Font Color</string>
+    <string name="sdk_vod_c_play_str_small">Small</string>
+    <string name="sdk_vod_c_play_str_middle">Medium</string>
+    <string name="sdk_vod_c_play_str_large">Large</string>
+    <string name="sdk_vod_c_play_str_pure_play_subtitle_null">No subtitles</string>
+    <string name="sdk_vod_c_play_str_subtitle_not_support_tips">The file you chose does not support subtitle format customization</string>
+    <string name="sdk_vod_c_play_str_title_season">Season %1$s</string>
+    <string name="sdk_vod_c_play_str_dialog_title_choose_episodes">Episodes</string>
+    <string name="sdk_vod_c_play_str_video_auto_play_switch">Auto play</string>
+
+    <string name="sdk_vod_c_play_str_subtitle_close">Subtitles function is closed</string>
+    <string name="sdk_vod_c_play_str_subtitle_loaded">Subtitles loaded</string>
+    <string name="sdk_vod_c_play_str_chronos_subtitle_loading_tips_content">Loading automatic subtitles – Powered by AI Chronos</string>
+
+    <!--todo-->
+    <string name="sdk_vod_c_play_str_cache_download_foreground_notification_title">Watch offline</string>
+    <string name="sdk_vod_c_play_str_cache_download_foreground_notification_content">Your video is downloading in the background</string>
+    <string name="sdk_vod_c_play_str_cloud_status_miss_match">MISS_MATCHED</string>
+
+    <string name="sdk_vod_c_play_str_download_state_stream">Streaming…</string>
+    <string name="sdk_vod_c_play_str_download_state_prepare">Preparing…</string>
+
+    <string name="sdk_vod_c_play_str_no_available_playsource">No available playsource</string>
+    <string name="sdk_vod_c_play_str_pure_play_state_error_url">Can\'t get playable resource url</string>
+    <string name="sdk_vod_c_play_str_invalid_season_id">Invalid seasonId</string>
+    <string name="sdk_vod_c_play_str_vod_episodes_is_empty">Episode is empty</string>
+    <string name="sdk_vod_c_play_str_query_episodes_failed">Server is busy</string>
+
+    <string name="sdk_vod_c_play_str_network_is_not_available">Network is not available</string>
+    <string name="sdk_vod_c_play_str_play_the_video_with_mobile_data_tips">You are on mobile data. If you want to play this video, change the preference on Settings.</string>
+    <string name="sdk_vod_c_play_str_user_service_purchase_now">OK, I know</string>
+    <string name="sdk_vod_c_play_str_no">No</string>
+    <string name="sdk_vod_c_play_str_ok">OK</string>
+    <string name="sdk_vod_c_play_str_network_is_disconnected">network is disconnected</string>
+
+    <string name="sdk_vod_c_play_str_trailer_failed">Trailer could not be played. Please try again later.</string>
+    <string name="sdk_vod_c_play_str_playing_completed">Playing completed</string>
+    <string name="sdk_vod_c_play_str_next_continue">Continue</string>
+    <string name="sdk_vod_c_play_str_next_quit">Quit</string>
+    <string name="sdk_vod_c_play_str_next_confirm">Continue playing</string>
+
+    <string name="sdk_vod_c_play_str_mobile_data_usage_tips">You are on mobile data. This video will consume %s MB.</string>
+    <string name="sdk_vod_c_play_str_confirm_dialog_agree">Continue</string>
+    <string name="sdk_vod_c_play_str_confirm_dialog_refuse">Cancel</string>
+
+    <string name="sdk_vod_c_play_str_rewind_and_fast_forward_tips">Long press arrow buttons on your remote to rewind and fast forward</string>
+    <string name="sdk_vod_c_play_str_from_begining_tips">From the beginning (%1$s)</string>
+
+    <string name="sdk_vod_c_play_str_play_video_auto_play_switch">Auto-play   </string>
+    <string name="sdk_vod_c_play_str_original">Original</string>
+    <string name="sdk_vod_c_play_str_other">OTHER</string>
+    <string name="sdk_vod_c_play_str_video_source">Video source</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_name">Name</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_time">Time</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_size">Size</string>
+    <string name="sdk_vod_c_play_str_play_subtitle_color">Color</string>
+
+    <string name="sdk_vod_c_play_str_reset">Reset</string>
+
+    <string name="sdk_vod_c_play_str_video_view_error_text_invalid_progressive_playback">This video isn\'t valid for streaming to this device.</string>
+</resources>

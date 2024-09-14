@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <corners android:radius="@dimen/sdk_vod_c_play_sm_2"/>
+            <solid android:color="#99FFFFFF"/>
+        </shape>
+    </item>
+    <item android:id="@android:id/secondaryProgress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/sdk_vod_c_play_sm_2"/>
+                <solid android:color="#CCFFFFFF"/>
+            </shape>
+        </clip>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <corners android:radius="@dimen/sdk_vod_c_play_sm_2"/>
+                <gradient
+                    android:type="linear"
+                    android:startColor="@color/sdk_vod_c_play_primary_color"
+                    android:endColor="@color/sdk_vod_c_play_primary_color2"/>
+            </shape>
+        </clip>
+    </item>
+</layer-list>

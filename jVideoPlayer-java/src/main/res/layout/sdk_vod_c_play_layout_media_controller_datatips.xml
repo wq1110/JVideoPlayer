@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/media_next_episode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sdk_vod_c_play_str_next_episode"
+        android:paddingStart="@dimen/sdk_vod_c_play_sm_6"
+        android:paddingEnd="@dimen/sdk_vod_c_play_sm_6"
+        android:paddingTop="@dimen/sdk_vod_c_play_sm_3"
+        android:paddingBottom="@dimen/sdk_vod_c_play_sm_3"
+        android:textSize="@dimen/sdk_vod_c_play_font_size_26px"
+        android:textColor="@color/white"
+        android:background="@drawable/sdk_vod_c_play_bg_next_episode"
+        android:layout_marginEnd="@dimen/sdk_vod_c_play_sm_50"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"/>
+</RelativeLayout>

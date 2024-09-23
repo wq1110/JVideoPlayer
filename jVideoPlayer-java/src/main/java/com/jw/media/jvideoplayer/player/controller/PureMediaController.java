@@ -776,11 +776,6 @@ public class PureMediaController extends MediaSubController implements SeekBar.O
         mHandler.sendEmptyMessage(PlayConstant.Message.MESSAGE_UPDATE_PROGRESS);
     }
 
-    @Override
-    public boolean isMobileDevice() {
-        return true;
-    }
-
     public void hideLoadingBox() {
         mHandler.sendEmptyMessage(PlayConstant.Message.MESSAGE_HIDE_LOADING);
     }

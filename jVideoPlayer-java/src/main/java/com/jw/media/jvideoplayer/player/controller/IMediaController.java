@@ -12,10 +12,6 @@ import com.jw.media.jvideoplayer.player.listener.OnMediaControllerListener;
  * @Description An interface for media controller
  */
 public interface IMediaController {
-
-    //Device State(区分手机还是盒子)
-    boolean isMobileDevice();
-
     // Playback State
     boolean isPlaying();
     boolean isInPlaybackState();
@@ -43,6 +39,7 @@ public interface IMediaController {
     void setLoadingSpeed(String loadingSpeed);
     void setLoadingExtraInfo(String txt);
 
+    //Subtitle
     AssView getMediaAssView();
     void setSubtitleTextSize(float size);
     void setSubtitleTextColor(int textColor);
